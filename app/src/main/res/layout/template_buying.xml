@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/bookimage"
+            android:id="@+id/imageViewBuying"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="9dp" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:id="@+id/textView_booktitle"
+            android:textSize="18sp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_alignTop="@+id/imageViewBuying"
+            android:layout_toRightOf="@+id/imageViewBuying"
+            android:layout_toEndOf="@+id/imageViewBuying" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_priceRange"
+            android:layout_alignBottom="@+id/imageViewBuying"
+            android:layout_alignLeft="@+id/textView_location"
+            android:layout_alignStart="@+id/textView_location" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_location"
+            android:layout_width="match_parent"
+            android:layout_above="@+id/textView_priceRange"
+            android:layout_alignLeft="@+id/textView_booktitle"
+            android:layout_alignStart="@+id/textView_booktitle"
+            android:layout_marginBottom="7dp" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_bookAuthor"
+            android:layout_below="@+id/textView_booktitle"
+            android:layout_alignLeft="@+id/textView_booktitle"
+            android:layout_alignStart="@+id/textView_booktitle"
+            android:layout_marginTop="8dp" />
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "150612988866",
+    "firebase_url": "https://fir-bookt.firebaseio.com",
+    "project_id": "firebase-bookt",
+    "storage_bucket": "firebase-bookt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150612988866:android:f80ff905d23859f7",
+        "android_client_info": {
+          "package_name": "com.ust.bookt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "150612988866-8v014fq9rut2711jujglq2qrr5npoqtu.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "150612988866-vqgo2v8b84j8vjtsieb0lrfg29u7rsl6.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "150612988866-tq12cgt7u0miudjtoqn4ksflbj527ugb.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "150612988866-uckod3co2aseein1sajvl9ug217vp9p6.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "150612988866-tk88jncqbj508irqkstrh99hek56l86j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ust.bookt",
+            "certificate_hash": "56a4d05f1fb20e526e46badabf510c9383abbd00"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiuiXONa4shi8ZeBLaq70i7WNJ1c4itzg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "150612988866-8v014fq9rut2711jujglq2qrr5npoqtu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
